@@ -50,7 +50,7 @@ offnotes = [pg.mixer.Sound(p) for p in full_offnotes_path]
 
 
 def sing(status):
-    if status < 300:
+    if status < 400:
         note = random.choice(pnotes)
         print('\r{}{}{}'.format(BColors.OKGREEN, status, BColors.ENDC))
     else:
